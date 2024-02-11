@@ -5,5 +5,5 @@ control. It is heavily inspired on [OSD Volume](https://github.com/ticky/steam-d
 by [ticky](https://github.com/ticky).
 
 ## Example
-![example](./imgs/example.jpeg)
+![example](./imgs/example.jpg)
 
