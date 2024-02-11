@@ -1,0 +1,82 @@
+/*
+  This is heavily based on https://github.com/ticky/steam-deck-themes
+
+  Thank you ticky!
+*/
+.audio_VolumePopin_2iUUM.audio_VolumePopinHidden_1OwmL {
+    transform: none;
+    opacity: 0;
+}
+
+.audio_VolumePopin_2iUUM, .audio_VolumePopin_2iUUM.audio_VolumePopinHidden_1OwmL
+{
+    width: 200px;
+    height: 200px;
+
+    top:auto;
+    left:0;
+    right:0;
+    bottom: 10%;
+    
+    flex-direction: column;
+    align-items:center;
+
+    background-color: rgba(48,48,48,.4);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+
+    transition-property: opacity;
+    margin-left: auto;
+    margin: auto;
+}
+
+.audio_VolumeSliderPosition_1_hv3 {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0;
+}
+
+.audio_VolumePopin_2iUUM .gamepaddialog_FieldChildrenWithIcon_2ZQ9w {
+    flex-direction: column;
+}
+
+.audio_VolumePopin_2iUUM .gamepaddialog_FieldIcon_1sC68 {
+    padding: 0;
+}
+
+.audio_VolumePopin_2iUUM .gamepaddialog_FieldIcon_1sC68 > svg {
+    transform: scale(6);
+}
+
+.audio_VolumePopin_2iUUM .gamepaddialog_Field_S-_La {
+    top: 40%;
+}
+
+.audio_VolumePopin_2iUUM .gamepaddialog_FieldChildrenInner_3N47t {
+    position: relative;
+    top: 70px;
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N,
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::before {
+  background-position-y: center;
+  background-repeat: repeat-x;
+  border-radius: 0;
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N {
+    color: black;
+}
+
+.audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::before {
+  background: linear-gradient(
+    to right,
+    currentColor,
+    currentColor 70%,
+    transparent 70%,
+    transparent
+  );
+    background-size: .568em 100%;
+    color: white;
+}

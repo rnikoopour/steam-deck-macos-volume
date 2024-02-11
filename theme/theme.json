@@ -1,0 +1,22 @@
+{
+  "name": "macOS Volume",
+  "author": "dankutron9000",
+  "version": "v1.0.0",
+  "description": "Makes the volume control look like macOS' volume control. The implementation is heavily based on OSD Volume plugin by ticky.",
+  "manifest_version": 8,
+  "target": "Tweak",
+  "inject": {
+    "volume.css": ["bigpicture"]
+  },
+  "patches": {
+    "Preview": {
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "preview.css": ["bigpicture"]
+        }
+      }
+    }
+  }
+}
