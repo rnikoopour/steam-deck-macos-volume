@@ -1,4 +1,4 @@
-/*
+fr/*
   This is heavily based on https://github.com/ticky/steam-deck-themes
 
   Thank you ticky!
@@ -28,6 +28,8 @@
     transition-property: opacity;
     margin-left: auto;
     margin: auto;
+
+    pointer-events: none;
 }
 
 .audio_VolumeSliderPosition_1_hv3 {
