@@ -62,9 +62,9 @@
 
 .audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N,
 .audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::before {
-  background-position-y: center;
-  background-repeat: repeat-x;
-  border-radius: 0;
+    background-position-y: center;
+    background-repeat: repeat-x;
+    border-radius: 0;
 }
 
 .audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N {
@@ -72,13 +72,13 @@
 }
 
 .audio_VolumePopin_2iUUM .gamepadslider_SliderTrack_Mq25N::before {
-  background: linear-gradient(
-    to right,
-    currentColor,
-    currentColor 70%,
-    transparent 70%,
-    transparent
-  );
+    background: linear-gradient(
+	to right,
+	currentColor,
+	currentColor 70%,
+	transparent 70%,
+	transparent
+    );
     background-size: .568em 100%;
     color: white;
 }
