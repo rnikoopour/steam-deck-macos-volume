@@ -1,4 +1,4 @@
-fr/*
+/*
   This is heavily based on https://github.com/ticky/steam-deck-themes
 
   Thank you ticky!
@@ -21,7 +21,7 @@ fr/*
     flex-direction: column;
     align-items:center;
 
-    background-color: rgba(48,48,48,.4);
+    background-color: rgba(48,48,48,.6) !important;
     backdrop-filter: blur(10px);
     border-radius: 10px;
 
